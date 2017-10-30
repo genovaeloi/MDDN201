@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat|Droid+Sans|Permanent+Marker);
+
+/* general, font, interface
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1{
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: none;
+	color: #000;
+
+}
+h2{
+	color: 	#000000;
+	font-family: 'Permanent Marker', cursive;
+	color: #000;
+}
+p{
+	font-family: 'Droid Sans', sans-serif;
+	color: #000;
+
+}
+ a:visited { text-decoration: none; }
+.title a {}
+
+
+/* top navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body{
+	margin:  0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+#navigation{
+
+	padding: 0;
+	height: 100px;
+	background-color: #79c3c9;
+}
+
+.title{
+	overflow: hidden;
+	font-size: 50px;
+	margin-left: 5%;
+}
+
+/* unvisited link */
+.title a:link {
+	 text-decoration: none;
+	 color: 	#000000;
+	 font-family: 'Permanent Marker', cursive;
+	 color: #000;
+}
+
+/* visited link */
+.title a:visited {
+	 text-decoration: none;
+	 color: 	#000000;
+	 font-family: 'Permanent Marker', cursive;
+	 color: #000;
+}
+
+
+.text{
+	padding-left: 5%;
+	margin:0;
+	overflow: hidden;
+	font-weight: 200;
+	font-size: 50px;
+
+}
+.hmLink{
+	color: #000;
+    text-decoration: none;
+}
+
+.sidebar{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	right: -300px;
+	background: #262626;
+	width: 300px;
+	height: 130%;
+	transition: .3s;
+
+}
+.active{
+	right: 0;
+}
+ul{
+	margin: 0;
+	padding: 20px 0;
+}
+ul li{
+	list-style: none;
+	font-family: 'Droid Sans', sans-serif;
+
+}
+ul li a{
+	padding: 10px 20px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	margin-top: 10%;
+}
+.sidebarBtn{
+	position: absolute;
+	top: 5%;
+    right: 180%;
+    width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+	background: #79c3c9;
+	border: none;
+	outline: none;
+}
+.sidebarBtn span{
+	display: block;
+	width:  35px;
+	height: 4px;
+	background: #262626;
+	position: absolute;
+	top:24px;
+	transition: .3s;
+}
+.sidebarBtn span:before{
+	content: '';
+	position: absolute;
+	top:	-10px;
+	right: 0;
+	width: 100%;
+	height: 4px;
+	background:  #262626;
+	transition: .3s;
+}
+.sidebarBtn span:after{
+	content: '';
+	position: absolute;
+	top:	10px;
+	right: 0;
+	width: 100%;
+	height: 4px;
+	background:  #262626;
+	transition: .3s;
+}
+.sidebarBtn.toggle span{
+	background: transparent;
+}
+.sidebarBtn.toggle span:before{
+		top:0;
+		transform:  rotate(45deg);
+}
+.sidebarBtn.toggle span:after{
+		top:0;
+		transform:  rotate(-45deg);
+
+}
+
+#audio{
+	font-size: 60%;
+}
+
+
+.pageBreaker{
+	height: 20px;
+}
+
+
+
+
+/* content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.content{
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+/* topContent */
+.topContent{
+	height: 50%;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	text-align: left ;
+}
+
+.button {
+
+	display: inline-block;
+	background-color: #fff;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border: none;
+	border-radius: 100px;
+	height: 100%;
+
+}
+
+.profile{
+	text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile-tag{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2%;
+
+}
+.profile-input{
+	margin-top: 2%;
+  	vertical-align: top;
+  	background-color: #79c3c9;
+  	border: none;
+}
+
+
+.button:hover {background-color: #79c3c9}
+
+.button:active {
+
+  transform: translateY(4px);
+}
+
+
+
+/* botContent */
+.botContent{
+
+}
+/* buttons */
+
+#blog{
+	background-color: #b4fde2;
+	min-width: 50%;
+	width: 30%;
+	height: 250px;
+	display: flex;
+	align-content: center | stretch;
+	margin-left: 26%;
+	font-size: 350%;
+}
+.button-text-right{
+	display: inline-block;
+    vertical-align: top;
+		margin-top: 20%;
+		margin-left: 1%;
+    width: 20px;
+    text-align: center;
+
+}
+#blog-img{
+	float: left;
+    text-align: center;
+    max-width: 30%;
+    min-width: 50%;
+
+}
+
+#battle{
+	background-color: #ff6166;
+	min-width: 50%;
+	width: 30%;
+	height: 250px;
+	display: flex;
+	align-content: center | stretch;
+	margin-left: 26%;
+}
+.button-text-left{
+	display: inline-block;
+    vertical-align: top;
+    mmargin-top: 3%;
+		margin-left: 1%;
+    width: 20px;
+		font-size: 500%;
+}
+#battle-img{
+	float: right;
+    text-align: center;
+    max-width: 30%;
+    min-width: 50%;
+    padding-left: 47%;
+
+}
+#textBlog{
+	float: right;
+	padding-right: 10%;
+	color: 	#000000;
+	width: 25%;
+	margin:0;
+}
+
+
+
+
+.main{
+	display: flex;
+	align-content: center ;
+}
+
+.link{
+	text-decoration: none;
+}

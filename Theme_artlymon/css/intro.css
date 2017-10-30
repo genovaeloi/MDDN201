@@ -1,0 +1,48 @@
+body{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+#background{
+
+		position: fixed;
+		z-index: 1;
+		padding-bottom: 50px;
+
+}
+#mon1{
+	padding-left: 60px;
+	padding-right: 0;
+	padding-top: 250px;
+	float: right;
+	position: absolute;
+	z-index: 2;
+}
+#mon2{
+	padding-left: 150px;
+	padding-right: 0;
+	padding-top: 250px;
+	float: right;
+	position: absolute;
+	z-index: 2;
+}
+#mon3{
+	padding-left: 260px;
+	padding-right: 0;
+	padding-top: 240px;
+	float: right;
+	position: absolute;
+	z-index: 2;
+}
+#space{
+	position: relative;
+	padding: 100px;
+	height: 700px;
+	width: 200px;
+	overflow: 0;
+}
+
+

@@ -1,0 +1,95 @@
+/* content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.content{
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* content divs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.botContent{
+margin-top: 10%;
+}
+.resultContent{
+	background-color: #b4fde2;
+	height:80px;
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #79c3c9;
+  text-align: center;
+}
+
+/* buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#findOpp{
+	background-color: #b4fde2;
+	height:80px;
+}
+
+#battleLog{
+	background-color: #ff6166;
+	height:80px;
+}
+
+#textfindOpp{
+	float: right;
+	padding-right: 10%;
+	color: 	#000000;
+	width: 35%;
+	font-size: 80%;
+}
+
+#textBattleLog{
+	float: left;
+	padding-left: 10%;
+	color: 	#000000;
+	width: 50%;
+	font-size: 80%;
+}
+.textBtn{
+	margin:0;
+}
+
+
+
+/*battle buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#img1{
+	padding: 20px;
+	padding-left: 40px;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+#img2{
+	padding: 20px;
+	padding-right: 40px;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+#img3{
+	padding: 20px;
+	padding-left: 40px;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+#img4{
+	padding: 20px;
+	padding-right: 40px;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
